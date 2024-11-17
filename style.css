@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Open Sans", sans-serif;
+}
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: url('assets/arun111.jpg');
+   background-position: center;
+   background-size: cover;
+   position: relative;
+
+}
+.navbar-list{
+   color: aliceblue;
+   text-decoration: none;
+   font-size: 10px;
+   transition: background-color 0.3 ease;
+   padding:10px;
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+
+}
+.navbar-list li{
+   margin-top: 50px;
+   font-size: 15px;
+}
+.home{
+   filter: blur(1px);
+}
+.content{
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translatex(-50%)translatey(-50%);
+   text-align: center;
+   color: #ffff;
+}
+.content h4{
+   padding-top: 20px;
+   font-size: 16px;
+}
+.content .head{
+   margin-top: 10px;
+   font-size: 25px;
+   justify-content: space-between;
+}
+.content .line{
+   padding-top: 35px;
+   font-size: 18px;
+}
+.page-list{
+   list-style-type: none;
+   justify-content: space-between;
+   display: flex;
+   padding-top: 30px;
+}
+.bro{
+   font-size: 30px;
+   font-weight: 300px;
+}
+.icon{
+   transform: translatex(-70%)translatey(+40%);
+   top: 45%;
+   left: 45%;
+   font-size: 20px;
+}
+
+.circle-container{
+   display:flex;
+   margin-top: 40px;
+   position: relative;
+   justify-content: center;
+   gap: 15px;
+
+}
+.circle{
+   display: inline-block;
+   position: relative;
+   width: 7px;
+   height: 7px;
+   border-radius: 50%;
+   flex-direction: row;
+   background-size: cover;
+}
+.button 
+{
+   margin-top: 40px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 22px;
+   padding-right: 22px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(132, 0, 255);
+   color: white;
+
+}
+
+@media screen and (max-width:900px)and ( min-width:500px){
+   
+}
+
